@@ -9,7 +9,7 @@ params = []
 
 
 def main():
-    #create_db('hh_data')
+    create_db('hh_data')
     print("Для поиска интересующих вакансий введите название в поиск\nдля завершения работы введите ~")
     name = input("поиск\n")
     while name != '~':
